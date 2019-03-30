@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Lwtin</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.lwtin.com/"/>
+  <updated>2019-03-30T17:48:44.734Z</updated>
+  <id>http://blog.lwtin.com/</id>
+  
+  <author>
+    <name>Lwtin</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JAVA简介</title>
+    <link href="http://blog.lwtin.com/2019/03/31/java/"/>
+    <id>http://blog.lwtin.com/2019/03/31/java/</id>
+    <published>2019-03-30T17:34:19.000Z</published>
+    <updated>2019-03-30T17:48:44.734Z</updated>
+    
+    <content type="html"><![CDATA[<p>Java是一种广泛使用的计算机编程语言，拥有跨平台、面向对象、泛型编程的特性，广泛应用于企业级Web应用开发和移动应用开发。</p><p>任职于太阳微系统的詹姆斯·高斯林等人于1990年代初开发Java语言的雏形，最初被命名为Oak，目标设置在家用电器等小型系统的编程语言，应用在电视机、电话、闹钟、烤面包机等家用电器的控制和通信。由于这些智能化家电的市场需求没有预期的高，Sun公司放弃了该项计划。随着1990年代互联网的发展，Sun公司看见Oak在互联网上应用的前景，于是改造了Oak，于1995年5月以Java的名称正式发布。Java伴随着互联网的迅猛发展而发展，逐渐成为重要的网络编程语言。</p><a id="more"></a><p>Java编程语言的风格十分接近C++语言。继承了C++语言面向对象技术的核心，舍弃了容易引起错误的指针，以引用取代；移除了C++中的运算符重载和多重继承特性，用接口取代；增加垃圾回收器功能。在Java SE 1.5版本中引入了泛型编程、类型安全的枚举、不定长参数和自动装/拆箱特性。太阳微系统对Java语言的解释是：“Java编程语言是个简单、面向对象、分布式、解释性、健壮、安全与系统无关、可移植、高性能、多线程和动态的语言”</p><p>Java不同于一般的编译语言或解释型语言。它首先将源代码编译成字节码，再依赖各种不同平台上的虚拟机来解释执行字节码，从而具有“一次编写，到处运行”的跨平台特性。在早期JVM中，这在一定程度上降低了Java程序的运行效率。但在J2SE1.4.2发布后，Java的运行速度有了大幅提升。</p><p>与传统类型不同，Sun公司在推出Java时就将其作为开放的技术。全球的Java开发公司被要求所设计的Java软件必须相互兼容。“Java语言靠群体的力量而非公司的力量”是 Sun公司的口号之一，并获得了广大软件开发商的认同。这与微软公司所倡导的注重精英和封闭式的模式完全不同，此外，微软公司后来推出了与之竞争的.NET平台以及模仿Java的C#语言。后来Sun公司被甲骨文公司并购，Java也随之成为甲骨文公司的产品。</p><p>现时，移动操作系统Android大部分的代码采用Java 编程语言编程。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">hello</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"你好，世界！"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Java是一种广泛使用的计算机编程语言，拥有跨平台、面向对象、泛型编程的特性，广泛应用于企业级Web应用开发和移动应用开发。&lt;/p&gt;
+&lt;p&gt;任职于太阳微系统的詹姆斯·高斯林等人于1990年代初开发Java语言的雏形，最初被命名为Oak，目标设置在家用电器等小型系统的编程语言，应用在电视机、电话、闹钟、烤面包机等家用电器的控制和通信。由于这些智能化家电的市场需求没有预期的高，Sun公司放弃了该项计划。随着1990年代互联网的发展，Sun公司看见Oak在互联网上应用的前景，于是改造了Oak，于1995年5月以Java的名称正式发布。Java伴随着互联网的迅猛发展而发展，逐渐成为重要的网络编程语言。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="JAVA" scheme="http://blog.lwtin.com/categories/JAVA/"/>
+    
+    
+      <category term="JAVA" scheme="http://blog.lwtin.com/tags/JAVA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nginx 安装方法</title>
+    <link href="http://blog.lwtin.com/2019/03/31/nginx/"/>
+    <id>http://blog.lwtin.com/2019/03/31/nginx/</id>
+    <published>2019-03-30T17:10:13.000Z</published>
+    <updated>2019-03-30T17:46:43.658Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><p>下载 nginx</p><blockquote><p>链接  : <a href="https://nginx.org/en/download.html" target="_blank" rel="noopener">https://nginx.org/en/download.html</a></p></blockquote></li><li><p>yum 安装必要的组件</p><blockquote><p>yum -y install gcc gcc-c++ automake pcre pcre-devel zlib zlib-devel open openssl-devel</p></blockquote></li></ul><a id="more"></a><ul><li><p>解压 nginx 、建立文件夹nginx</p><blockquote><p>tar xvf nginx-1.14.2 <br> mkdir nginx</p></blockquote></li><li><p>配置</p><blockquote><p>./configure –prefix=/usr/local/nginx/nginx-1.14.2</p></blockquote></li><li><p>编译和安装</p><blockquote><p>make <br> make install</p></blockquote></li><li><p>启动nginx</p><blockquote><p>./sbin/nginx</p></blockquote></li><li><p>重启nginx</p><blockquote><p>service nginx restart</p></blockquote></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;下载 nginx&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;链接  : &lt;a href=&quot;https://nginx.org/en/download.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://nginx.org/en/download.html&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;yum 安装必要的组件&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;yum -y install gcc gcc-c++ automake pcre pcre-devel zlib zlib-devel open openssl-devel&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Nginx" scheme="http://blog.lwtin.com/categories/Nginx/"/>
+    
+    
+      <category term="Nginx" scheme="http://blog.lwtin.com/tags/Nginx/"/>
+    
+  </entry>
+  
+</feed>
