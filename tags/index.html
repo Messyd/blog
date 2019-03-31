@@ -83,13 +83,13 @@
 
 <meta name="keywords" content="Java,Hexo">
 <meta property="og:type" content="website">
-<meta property="og:title" content="tags">
+<meta property="og:title" content="所有标签">
 <meta property="og:url" content="http://blog.lwtin.com/tags/index.html">
 <meta property="og:site_name" content="Lwtin">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-03-30T14:33:45.313Z">
+<meta property="og:updated_time" content="2019-03-31T09:55:04.346Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
+<meta name="twitter:title" content="所有标签">
 
 
 
@@ -125,7 +125,7 @@
 
 
 
-  <title>tags | Lwtin</title>
+  <title>所有标签 | Lwtin</title>
   
 
 
@@ -190,12 +190,12 @@
         </li>
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
+        <li class="menu-item menu-item-music">
+          <a href="/music/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-music"></i> <br>
             
-            关于
+            音乐
           </a>
         </li>
       
@@ -287,7 +287,7 @@
     <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">tags</h1>
+	<h1 class="post-title" itemprop="name headline">所有标签</h1>
 
 
 
@@ -324,10 +324,6 @@
 
 
           
-
-  
-
-
 
         </div>
         
@@ -597,6 +593,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'H7rIxep3B2ud2dyQPBQ2jbDn-gzGzoHsz',
+        appKey: 'qLkgh0u5gapSclAos8yol9xq',
+        placeholder: 'ヾﾉ≧∀≦)o 来呀！快活呀！~',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
